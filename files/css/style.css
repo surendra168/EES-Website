@@ -70,7 +70,9 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition: all 400ms;
   -o-transition: all 400ms;
   transition: all 400ms;
-  background:url('../images/background-header.png');
+  background:url('../images/background-header-2.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 @media (max-width: 991px) {
   .site-header {
@@ -99,26 +101,28 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 .scrolled-header {
-  background: #fff;
+  background:url('../images/background-header-2.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
   padding: 0;
   border-color: #dddddd;
 }
 .scrolled-header .main-header .logo a {
-  color: #272727;
+  color: #dddddd;
 }
 .scrolled-header .main-navigation ul > li > a {
-  color: #272727;
+  color: #dddddd;
 }
 .header-right-toggle {
   padding: 15px 0 15px 30px;
 }
 .header-right-toggle a {
-  color: #272727;
+  color: #dddddd;
 }
 a.side-menu-button {
   text-transform: uppercase;
   font-weight: 700;
-  color: #272727;
+  color: #dddddd;
 }
 a.side-menu-button i {
   margin-right: 6px;
